@@ -1,3 +1,5 @@
+This fork adds the [buffer](https://www.npmjs.com/package/buffer) package as a dependency. That removes the requirement to configure polyfills for browser builds.
+
 This is a streaming JSON parser.  For a simpler, sax-based version see this gist: https://gist.github.com/1821394
 
 The MIT License (MIT)
