@@ -1,4 +1,4 @@
-/*global Buffer*/
+var { Buffer } = require('buffer')
 // Named constants with unique integer values
 var C = {};
 // Tokens
