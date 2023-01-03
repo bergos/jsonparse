@@ -5,7 +5,7 @@
     "json",
     "stream"
   ],
-  "version": "1.4.0",
+  "version": "1.4.1",
   "author": "Tim Caswell <tim@creationix.com>",
   "repository": {
     "type": "git",
