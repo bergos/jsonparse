@@ -9,7 +9,7 @@
   "author": "Tim Caswell <tim@creationix.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/creationix/jsonparse.git"
+    "url": "http://github.com/bergos/jsonparse.git"
   },
   "devDependencies": {
     "tap": "~0.3.3",
@@ -18,7 +18,7 @@
   "scripts": {
     "test": "tap test/*.js"
   },
-  "bugs": "http://github.com/creationix/jsonparse/issues",
+  "bugs": "http://github.com/bergos/jsonparse/issues",
   "engines": [
     "node >= 0.2.0"
   ],
