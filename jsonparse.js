@@ -265,7 +265,7 @@ proto.write = function (buffer) {
             break;
           default:
             this.tState = START;
-            var error = this.numberReviver(this.string);
+            var error = this.numberReviver(this.string, buffer, i);
             if (error){
               return error;
             }
@@ -406,7 +406,7 @@ proto.onToken = function (token, value) {
 
 // Override to implement your own number reviver.
 // Any value returned is treated as error and will interrupt parsing.
-proto.numberReviver = function (text) {
+proto.numberReviver = function (text, buffer, i) {
   var result = Number(text);
 
   if (isNaN(result)) {
